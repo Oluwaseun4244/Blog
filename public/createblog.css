@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+}
+
+#body {
+    background-image: url('./images/bg.jfif');
+}
+
+.blog-post {
+    background-color: #c4dce7;
+    width: 90%;
+    height: 550px;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    margin: 5% 35%;
+    width: 30%;
+    /* justify-content: center; */
+    height: 400px;
+    flex-direction: row;
+}
+
+#post-btn {
+    background-color: blue;
+    color: white;
+    height: 40px;
+    width: 100px;
+}
+
+#post-btn:hover {
+    background-color: rgb(33, 212, 33);
+    color: yellow;
+    height: 40px;
+    width: 100px;
+    cursor: pointer;
+}
+
+
+/* #content {
+    height: 250px;
+    width: 320px;
+} */
+
+#textarea {
+    height: 250px;
+    width: 90%;
+    resize: none;
+}
+
+#blog-title-input {
+    height: 30px;
+    width: 60%;
+    font-weight: bold;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    height: 40px;
+    width: 40%;
+    margin-bottom: 5px;
+}
+
+.hidden-select {
+    position: absolute;
+    display: none;
+}
+
+.dropdown:hover .hidden-select {
+    position: relative;
+    display: block;
+    /* cursor: progress; */
+}
+
+.bounce-1 {
+    animation-name: bounce-1;
+    animation-timing-function: linear;
+}
+
+@keyframes bounce-1 {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-5px);
+    }
+}
+
+.box {
+    align-self: flex-end;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    margin: 0 auto 0 auto;
+    transform-origin: bottom;
+    width: 200px;
+}
+
+.side-img {
+    justify-content: flex-end;
+}
+
+#header {
+    height: 30px;
+    background-color: #c4dce7;
+    /* position: fixed; */
+    margin-top: 10px;
+    width: 18%;
+    margin-left: 10px;
+    border-radius: 2%;
+}
+
+#home,
+#blog {
+    display: inline-block;
+    margin-left: 35px;
+    padding: 2px;
+}

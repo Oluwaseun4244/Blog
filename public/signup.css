@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    justify-content: center;
+}
+
+.left {
+    width: 40%;
+    background-color: white;
+    /* margin: 50px 200px 50px 200px; */
+    margin-left: 300px;
+    margin-top: 70px;
+    /* box-shadow: 5px 10px 8px 0px #888888; */
+    border-radius: 2%;
+    /* background-image: url('./images/download.jfif'); */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sign-up {
+    background-color: white;
+    height: 340px;
+    margin: 100px;
+    width: 60%;
+    text-align: center;
+    border: 3px solid black;
+    /* box-shadow: 5px 10px 8px 0px teal; */
+}
+
+.input1 {
+    width: 80%;
+    height: 40px;
+    /* border: 1px solid black; */
+    appearance: none;
+}
+
+.Sign-up-btn {
+    background-color: #000;
+    border: 1px solid #000;
+    color: white;
+    height: 40px;
+    width: 80%;
+    border-radius: 5rem;
+}
+
+.Sign-up-btn:hover {
+    background-color: green;
+    border: 1px solid #000;
+    color: white;
+    height: 40px;
+    width: 80%;
+    cursor: pointer;
+}
+
+#body {
+    background-color: #121212;
+}
+
+.danger {
+    background-color: red;
+    color: white;
+    text-align: center;
+}
+
+#signup-head,
+#signup-head2 {
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 5px;
+}
+
+.home-blog {
+    background-color: white;
+    height: 30px;
+    /* display: inline-block; */
+}
