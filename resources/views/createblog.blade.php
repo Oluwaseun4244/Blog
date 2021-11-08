@@ -42,6 +42,7 @@
                    <div class="hidden-select">
                     <select name="author" id="select">
                         {{-- <option value="">SELECT AUTHOR</option> --}}
+                        <option value="Anonymous">Anonymous</option>
                         @foreach ($authors as $author)
                             <option value="{{ $author->firstname }} {{ $author->lastname }}"><strong>{{ $author->firstname }}
                               {{ $author->lastname }}</strong></option>

@@ -31,8 +31,8 @@
             <div class="sign-up">
                 @if ($message = Session::get('Created'))
 
-                    <h1 style="color:green;">{{ $message }}</h1>
-                    <h4><a href="http://127.0.0.1:8000/createblog">Click here to post blog</a></h4>
+                    <h1 style="color:green;">{{ $message }}</h1> <br><br><br>
+                    <h4><a href="http://127.0.0.1:8000/createblog">Click here to post blog</a></h4> <br><br><br>
                     <h4><a href="http://127.0.0.1:8000/signup">Return to signup page</a></h4>
 
                 @else

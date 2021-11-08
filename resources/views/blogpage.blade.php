@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="blogpage.css">
+    <link href="https://cdn.lineicons.com/3.0/lineicons.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
         integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -57,10 +58,10 @@
        <footer>
           <ul>
              <li><a href="#">About us</a></li>
-             <li><a href="#">Contact us</a></li>
-             <li><a href="#">Follow us on Twitter</a></li>
-             <li><a href="#">Follow us on Meta</a></li>
-             <li><a href="#">Follow us on Telegram</a></li>
+             <li><a href="#">Contact us</a> <i class="fa fa-phone-square" aria-hidden="true"></i></li>
+             <li><a href="#">Follow us on Twitter</a> <i style="color:#1d9bf0;" class="lni lni-twitter-filled"></i></li>
+             <li><a href="#">Follow us on Meta</a> <i style="color:#0f91f3;" class="lni lni-facebook-filled"></i></li>
+             <li><a href="#">Follow us on Telegram</a> <i style="color:rgb(48 163 230);" class="lni lni-telegram-original"></i></li>
           </ul>
        </footer>
     </div>

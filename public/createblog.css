@@ -34,8 +34,8 @@
 }
 
 #post-btn:hover {
-    background-color: rgb(33, 212, 33);
-    color: yellow;
+    background-color: green;
+    color: white;
     height: 40px;
     width: 100px;
     cursor: pointer;
