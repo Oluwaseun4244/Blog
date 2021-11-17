@@ -41,11 +41,11 @@
 
                     <form action="/signup" method="POST">
                         @csrf
-                        <label>First Name</label><br>
+                        <label class="label">First Name</label><br>
                         <input placeholder="First Name" class="input1" type="text" name="firstName" required><br>
-                        <label>Last Name</label><br>
+                        <label class="label">Last Name</label><br>
                         <input placeholder="Last Name" class="input1" type="text" name="lastName" required><br>
-                        <label>Email</label><br>
+                        <label class="e-label">Email</label><br>
                         <input placeholder="example@email.com" class="input1" type="email" name="email"
                             required><br><br>
                         <button class="Sign-up-btn" name="submit">Sign Up</button>

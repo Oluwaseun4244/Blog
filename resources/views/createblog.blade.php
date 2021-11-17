@@ -38,17 +38,14 @@
                 <h3>Blog Author</h3>
                 <div>
                 <div class="dropdown">
-                   <strong><span>SELECT AUTHOR </span></strong> <div class="box bounce-1"><i class="fa fa-arrow-down fa-1x"></i></div>
-                   <div class="hidden-select">
-                    <select name="author" id="select">
+                   <strong><span>SELECT AUTHOR </span></strong>
+                    <select class="option" name="author" id="select">
                         {{-- <option value="">SELECT AUTHOR</option> --}}
-                        <option value="Anonymous">Anonymous</option>
+                        <option value="ANONYMOUS">ANONYMOUS</option>
                         @foreach ($authors as $author)
-                            <option value="{{ $author->firstname }} {{ $author->lastname }}"><strong>{{ $author->firstname }}
-                              {{ $author->lastname }}</strong></option>
+                            <option  value="{{ strtoupper($author->firstname) }} {{ strtoupper($author->lastname) }}"><strong>{{ strtoupper($author->firstname) }} {{ strtoupper($author->lastname) }}</strong></option>
                         @endforeach
                     </select><br><br>
-                  </div>
                 </div>
                </div>
                 <label><strong>Blog Title</strong></label><br>

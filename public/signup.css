@@ -24,7 +24,7 @@
 
 .sign-up {
     background-color: white;
-    height: 340px;
+    height: 360px;
     margin: 100px;
     width: 60%;
     text-align: center;
@@ -35,6 +35,7 @@
 .input1 {
     width: 80%;
     height: 40px;
+    margin-bottom: 15px;
     /* border: 1px solid black; */
     appearance: none;
 }
@@ -78,4 +79,15 @@
     background-color: white;
     height: 30px;
     /* display: inline-block; */
+}
+
+.label {
+    margin-right: 195px;
+    /* font-size: 12px; */
+    font-weight: bold;
+}
+
+.e-label {
+    margin-right: 230px;
+    font-weight: bold;
 }
